@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Devfolio",
+    "info": [
+      "A minimal portfolio template for Developers.",
+      "It's a fully responsive Portfolio template for Developers with fully documented effortless configuration to get you up and running with your own Portfolio Website."
+    ],
+    "liveAt": "https://devfolio.js.org",
+    "sourceCode": "https://github.com/AnilSeervi/DevFolio",
+    "image": "assets/DevFolio.jpg"
+  },
+  {
+    "title": "Recipes Counter",
+    "info": [
+      "A full fullstack PWA firebase application",
+      "A full-stack PWA developed for my academics. It involves features such as authentication using email and password, involves CRUD operations and also works offline."
+    ],
+    "liveAt": "https://recipes-counter.web.app",
+    "sourceCode": "https://github.com/AnilSeervi/Recipes-Coutner",
+    "image": "assets/recipes-counter.webp"
+  },
+  {
+    "title": "NeumiKeyboard",
+    "info": [
+      "A Neumorphism Design Working Keyboard.",
+      "It's a fully Working Neumorphism Design Keyboard available in both light and dark mode."
+    ],
+    "liveAt": "https://anilseervi.github.io/NeumiKeyboard/",
+    "sourceCode": "https://github.com/AnilSeervi/NeumiKeyboard",
+    "image": "assets/Working-Neumorphism-Keyboard.jpg"
+  },
+  {
+    "title": "Gradient Generator",
+    "info": [
+      "A website for generating desired gradients.",
+      "You can generate both linear and radial gradients upto 3 colors on this website."
+    ],
+    "liveAt": "https://anilseervi.github.io/Gradient-Picker/",
+    "sourceCode": "https://github.com/AnilSeervi/Gradient-Picker",
+    "image": "assets/Gradient-Picker.jpg"
+  },
+  {
+    "title": "NeumiDigiClock",
+    "info": [
+      "A Neumorphism Design Digital Clock Website.",
+      "A Digital Clock Website with 12-hour and 24-hour display format in both light and dark mode."
+    ],
+    "liveAt": "https://anilseervi.github.io/NeumiDigiClock/",
+    "sourceCode": "https://github.com/AnilSeervi/NeumiDigiClock",
+    "image": "assets/Neumorphism-Digital-Clock.jpg"
+  },
+  {
+    "title": "NeumiAnalogClock",
+    "info": [
+      "A Neumorphism Design Analog Clock Website.",
+      "A Analog Clock Website developed using HTML5, CSS3 and VanillaJS, available in both light and dark mode."
+    ],
+    "liveAt": "https://anilseervi.github.io/NeumiAnalogClock/",
+    "sourceCode": "https://github.com/AnilSeervi/NeumiAnalogClock",
+    "image": "assets/Neumorphism-Analog-Clock.jpg"
+  },
+  {
+    "title": "MiniFolio",
+    "info": [
+      "A Simple Portfolio website of mine.",
+      "I've used only HTML5 and CSS3 for this website. It has some cool animation effects for hovers."
+    ],
+    "liveAt": "https://anilseervi.github.io/Website/",
+    "sourceCode": "https://github.com/AnilSeervi/Website",
+    "image": "assets/Website.jpg"
+  }
+]

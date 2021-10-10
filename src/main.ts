@@ -1,3 +1,8 @@
+import "./components/hero";
+import "./components/about";
+import "./components/projects";
+import "./components/contact";
+import "./components/footer";
 import "./style/main.scss";
 import "./scrollveal.js";
 import "./valtilt.js";

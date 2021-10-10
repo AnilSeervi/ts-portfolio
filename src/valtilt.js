@@ -1,4 +1,5 @@
-let tilt = document.querySelectorAll(".rounded");
+// user configuration
+const tilt = document.querySelectorAll(".rounded");
 VanillaTilt.init(tilt, {
   max: 3,
   speed: 500,
