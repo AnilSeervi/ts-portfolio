@@ -1,14 +1,19 @@
-import data from "../Projects.json";
+import { projects as data } from "../Projects.json";
+
+// Projects Section
 export const projects: HTMLElement = document.createElement("section");
 projects.id = "projects";
+
 // projects container
 const container: HTMLDivElement = document.createElement("div");
 projects.appendChild(container);
 container.className = "container";
+
 // projects wrapper
 const wrapper: HTMLDivElement = document.createElement("div");
 container.appendChild(wrapper);
 wrapper.className = "project-wrapper";
+
 // projects heading
 const h2: HTMLHeadingElement = document.createElement("h2");
 wrapper.appendChild(h2);
@@ -36,6 +41,7 @@ data.map((item) => {
   const btnsWrapper: HTMLDivElement = document.createElement("div");
   textWrapper.appendChild(btnsWrapper);
   btnsWrapper.className = "project-wrapper__text-btns";
+
   // live link
   const liveBtnLink: HTMLAnchorElement = document.createElement("a");
   btnsWrapper.appendChild(liveBtnLink);
@@ -44,6 +50,7 @@ data.map((item) => {
   liveBtnLink.target = "_blank";
   liveBtnLink.rel = "noopener noreferrer";
   liveBtnLink.textContent = "See Live";
+
   //  source code link
   const sourceBtnLink: HTMLAnchorElement = document.createElement("a");
   btnsWrapper.appendChild(sourceBtnLink);
@@ -52,6 +59,7 @@ data.map((item) => {
   sourceBtnLink.target = "_blank";
   sourceBtnLink.rel = "noopener noreferrer";
   sourceBtnLink.textContent = "Source Code";
+
   // image
   const imageWrapper: HTMLDivElement = document.createElement("div");
   row.appendChild(imageWrapper);
@@ -61,16 +69,20 @@ data.map((item) => {
   imageLiveLink.href = item.liveAt;
   imageLiveLink.target = "_blank";
   imageLiveLink.rel = "noopener noreferrer";
+
   // image thumbnail
   const imageThumbnail: HTMLDivElement = document.createElement("div");
   imageLiveLink.appendChild(imageThumbnail);
   imageThumbnail.classList.add("thumbnail", "rounded");
+
   // image
   const displayImg: HTMLImageElement = document.createElement("img");
   imageThumbnail.appendChild(displayImg);
+  displayImg.loading = "lazy";
   displayImg.src = item.image;
   displayImg.className = "img-fluid";
-  displayImg.alt = "Project Image";
+  displayImg.alt = item.title + " Project Image";
+  displayImg.title = item.title;
 });
 
 document.getElementById("about")?.insertAdjacentElement("afterend", projects);
